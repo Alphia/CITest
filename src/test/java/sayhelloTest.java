@@ -10,6 +10,6 @@ public class sayhelloTest {
     public void should_say_hello_name(){
         sayhello sh = new sayhello();
         String helloGang = sh.say("Gang");
-        assertEquals("helloGang", helloGang);
+        assertEquals("helloHeGang", helloGang);
     }
 }
