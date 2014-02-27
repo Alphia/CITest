@@ -9,7 +9,13 @@ public class sayhelloTest {
     @Test
     public void should_say_hello_name(){
         sayhello sh = new sayhello();
-        String helloGang = sh.say("Gang");
-        assertEquals("helloHeGang", helloGang);
+        String helloGang = sh.sayName("Gang");
+        assertEquals("helloGang", helloGang);
+    }
+
+    @Test
+    public void should_say_hello_mr(){
+        sayhello sh = new sayhello();
+        String helloMr = sh.sayMr("He");
     }
 }
